@@ -1,0 +1,109 @@
+/**************
+COLOR PALETTE
+***************/
+
+/* BASE COLORS 
+background:#FFFFFF <----White Background
+button colors: ##1D454D,#E6A6A4,#D9983E
+
+Primary Colors 
+ORANGE:#D9983E
+BROWN:#A06045
+GREEN:#1D454D
+PINK:#E6A6A4
+GREY:#C1C6BF
+PEACH:#E8BEA6
+
+*/
+
+/**************
+TYPOGRAPHY
+***************/
+
+/*Josefin Sans - Bold <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+Montserrat - Light <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+Montserrat - Reguar <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+Montserrat - Medium <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+Montserrat - Bold  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+La Belle Aurore - <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+
+/* Navigation styles */
+.logo{
+    background: white;
+    height: 230px;
+    background: url(../images/Basket_HP.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.nav{
+    display: flex;
+    background-color:white;
+    color: black;
+    padding:20px;
+}
+.left, .center, .right {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+      
+.left, .right {
+     width: 25%;
+}
+.center {
+        width: 50%;
+ }
+      
+.center a {
+    font-family: 'Montserrat',sans-serif;
+    color: #1d454d;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family:arial;
+}
+/* Column styles */
+.column{
+    height: 1200px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.box1, .box2, .box3{
+    height:100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box1{
+    margin-top: 20px;
+    background: url(../images/Basket_HP.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.box2 {
+    background: url(../images/Woman_HP.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box3 {
+    background: url(../images/Blanket_HP.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.text{
+    background-color: black;
+    width:100%;
+    padding:20px 40px;
+    color:#1d454d;
+}
+.text p{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Footer Styles */
