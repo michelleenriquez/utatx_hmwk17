@@ -1,0 +1,51 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    /*display: flex;
+    flex-grow: 100%;
+    flex-shrink: 0;
+    height: 100vH;
+    width: 100vw*/
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+footer {
+    background-color: #1D454D;
+    color: #ffffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    /*flex-grow: 0;
+    flex-shrink: 100%;*/
+}
+.fticonlist img {
+    width: 40px;
+}
+.fticonlist {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 5px;
+}
+
+.footertext {
+    display: grid;
+  justify-content: center;
+  width: 100vw;
+    grid-template-rows: 30px;
+    grid-template-columns: 225px 125px 300px;
+    grid-column-gap: 10px;
+    grid-template-areas: 
+        "AP Careers Tel"
+        "TTV PP Address";
+}
+.AP:hover {
+    color: #D9983E}
