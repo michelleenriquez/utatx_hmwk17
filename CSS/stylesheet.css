@@ -28,28 +28,6 @@ Montserrat - Bold  <link href="https://fonts.googleapis.com/css2?family=Montserr
 La Belle Aurore - <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
 
 /* Navigation styles */
-.nav{
-    display: flex;
-    background-color:white;
-    color: black;
-    padding:20px;
-}      
-.center {
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
- }
-      
-.center a {
-    font-family: 'Montserrat',sans-serif;
-    color: #1d454d;
-    padding: 10px;
-    font-size: 18px;
-    text-decoration: none;
-    font-family: 'Montserrat' sans-serif;
-}
 
 /* Column styles */
 .column{
