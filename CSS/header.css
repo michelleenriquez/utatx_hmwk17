@@ -6,18 +6,19 @@
     padding:0;
     text-align:center;
     font-size: 28px ;
-    color: #1D454D;font-family: 'Montserrat', sans-serif; font-weight: 200;
+    color: #1D454D;font-family: 'Montserrat', sans-serif; font-weight: 200px;
 }
 .nav li{
     display:inline;
 }
 
 .eve{font-size: 28px ;
-    color: #1D454D;font-family: 'Montserrat', sans-serif; font-weight: 200; font-style: none; text-decoration: none;}
+    color: #1D454D;font-family: 'Montserrat', sans-serif; font-weight: 200px; font-style: none; text-decoration: none;}
 
 .nav a{
     display:inline-block;
     padding:10px;
+    font-weight: 200px;
 }
 .headerPeach {
     display: flex;
@@ -28,7 +29,7 @@
     text-align: center;
     vertical-align: center;
     font-size: 44px ;
-    color: #1D454D;font-family: 'Montserrat', sans-serif; font-weight: 400;
+    color: #1D454D;font-family: 'Montserrat', sans-serif; font-weight: 400px;
 }
 .left, .center, .right {
     height: 121px;
@@ -48,7 +49,7 @@
     height:55px; 
     border-radius:10px; 
     border: none; 
-    font-family: 'Montserrat', sans-serif; font-weight: 150;
+    font-family: 'Montserrat', sans-serif; font-weight: 150px;
     text-align: left;
     justify-content: left;
     font-size: 18px;
@@ -77,7 +78,8 @@
     .nav{display: flex; flex-wrap: wrap; flex-direction: column; width: 100%; justify-content: center;}
     .headerPeach{display: flex; flex-wrap: wrap; flex-direction: column; width: 100%; justify-content: center; margin-right: auto;}
     .headerGreen{display: flex; flex-wrap: wrap; flex-direction: row; width: 100%; justify-content: center;}
-    .input{display: flex; flex-wrap: wrap; flex-direction: column; width: 100%%; justify-content: right;}
+    .input{display: flex; flex-wrap: wrap; flex-direction: column; width: 100%; justify-content: right;}
     .button{display: flex; flex-wrap: wrap; flex-direction: column; width: 100%; justify-content: right;}
     .right{display: flex; flex-wrap: wrap; flex-direction: column; width: 100%; justify-content: center;}
     #logo{margin-left: auto;}
+}
