@@ -11,6 +11,10 @@
 .nav li{
     display:inline;
 }
+
+.eve{font-size: 28px ;
+    color: #1D454D;font-family: 'Montserrat', sans-serif; font-weight: 200; font-style: none; text-decoration: none;}
+
 .nav a{
     display:inline-block;
     padding:10px;
