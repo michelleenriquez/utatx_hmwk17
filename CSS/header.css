@@ -63,7 +63,7 @@
     height: fit-content;
     padding: 0px 0px; 
     margin-right: 28px;
-    margin-top: 75px;
+    margin-top: 0px;
     font-size: 28px; 
     border: none; 
     cursor: pointer; 
@@ -71,5 +71,13 @@
 }  
 #basket {
     display: flex;
-    margin-top: -5px;
+    margin-top: -12px;
 }
+@media only screen and (max-width: 600px){
+    .nav{display: flex; flex-wrap: wrap; flex-direction: column; width: 100%; justify-content: center;}
+    .headerPeach{display: flex; flex-wrap: wrap; flex-direction: column; width: 100%; justify-content: center; margin-right: auto;}
+    .headerGreen{display: flex; flex-wrap: wrap; flex-direction: row; width: 100%; justify-content: center;}
+    .input{display: flex; flex-wrap: wrap; flex-direction: column; width: 100%%; justify-content: right;}
+    .button{display: flex; flex-wrap: wrap; flex-direction: column; width: 100%; justify-content: right;}
+    .right{display: flex; flex-wrap: wrap; flex-direction: column; width: 100%; justify-content: center;}
+    #logo{margin-left: auto;}
