@@ -146,4 +146,44 @@ p.box{
     color:#C1C6BF;
     opacity:47%;
 }
-/* Footer Styles */
+/* Media Query */
+@media only screen and (max-width: 600px){
+    .box{display: flex; flex-direction: column; width: 100%; justify-content: center;}
+    h1{
+        font-size: 22px; 
+    }
+    p{
+        font-size: 14px; 
+    }
+    .box1{display: flex; flex-direction: column; width: 100%; justify-content: center;}
+    h1{
+        font-size: 10px; 
+    }
+    p{
+        font-size: 14px; 
+    }
+    .box2{display: flex; flex-direction: column; width: 100%; justify-content: center;}
+    h1{
+        font-size: 10px; 
+    }
+    p{
+        font-size: 14px; 
+    }
+    .box3{display: flex; flex-direction: column; width: 100%; justify-content: center;}
+    h1{
+        font-size: 10px; 
+    }
+    h2{
+        font-size: 15px;
+    }
+    p{
+        font-size: 14px; 
+    }
+    .box4{display: flex; flex-direction: column; width: 100%; justify-content: center;}
+    h1{
+        font-size: 10px; 
+    }
+    p{
+        font-size: 14px; 
+    }
+}
