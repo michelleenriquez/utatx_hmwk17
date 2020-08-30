@@ -42,9 +42,9 @@ p {
 }
 
 .image {
-    float: left;
-    max-width: 50%;
-    max-height: 50%;
+    /*float: left;*/
+    max-width: 704px;
+    max-height: 465px;
 }
 
 .container {
@@ -68,7 +68,9 @@ h1 {
 .para3 {
 
     font-family: 'montserrat' 'regular';
+    text-align: left;
     font-size: 22px;
+    margin-left: 20px;
     margin-right: 0px;
     padding: 0px;
 }
@@ -114,7 +116,9 @@ h5 {
 .para4 {
 
     font-family: 'montserrat' 'regular';
+    text-align: left;
     font-size: 22px;
+    margin-left: 20px;
     margin-right: 0px;
     padding: 0px;
 }
@@ -130,7 +134,9 @@ h5 {
 
 .para5 {
     font-family: 'montserrat' 'regular';
+    text-align: left;
     font-size: 22px;
+    margin-left: 20px;
     margin-right: 0px;
     padding: 0px;
 }
@@ -145,7 +151,69 @@ h5 {
 
 .para6 {
     font-family: 'montserrat' 'regular';
+    text-align: left;
     font-size: 22px;
+    margin-left: 20px;
     margin-right: 0px;
     padding: 0px;
+}
+
+@media only screen and (max-width: 600px){
+    
+    .container {
+        display: grid;
+        grid-template-rows: repeat (2 300px);
+        grid-template-columns: 300px;
+    }
+    .container img {
+        max-width: 352px;
+        max-height: 232px;
+    }
+
+    .container2 {
+        display: grid;
+        grid-template-rows: repeat (2 300px);
+        grid-template-columns: 300px;
+    }
+
+    .container2 img {
+        min-width: 25vw;
+        min-height: 25vh;
+    }
+
+    .container3 img {
+        display: grid;
+        grid-template-rows: repeat (2 300px);
+        grid-template-columns: 300px; 
+    }
+
+    .container3 {
+        
+        min-width: 25vw;
+        min-height: 25vh;
+    }
+    
+   
+    .container4 {
+        display: grid;
+        grid-template-rows: repeat (2 300px);
+        grid-template-columns: 300px;
+    }
+
+    .container4 img {
+        min-width: 25vw;
+        min-height: 25vh;
+    }
+
+    .container5 img {
+        display: grid;
+        grid-template-rows: repeat (2 300px);
+        grid-template-columns: 300px; 
+    }
+
+    .container5 {
+        
+        min-width: 25vw;
+        min-height: 25vh;
+}
 }
