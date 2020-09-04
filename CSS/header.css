@@ -21,10 +21,10 @@
     font-weight: 200px;
 }
 
-a:hover {
+.nav a:hover {
     background-color: #D9983E;
 }
-a:active {
+.nav a:active {
     background-color: #A06045; 
 }
 

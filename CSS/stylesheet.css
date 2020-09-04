@@ -162,7 +162,7 @@ p.box{
     p{
         font-size: 14px; 
     }
-    .box2{display: flex; flex-direction: column; width: 100%; justify-content: center;}
+    .box2{display: flex; flex-direction:column; width: 100%; justify-content: center;}
     h1{
         font-size: 10px; 
     }
