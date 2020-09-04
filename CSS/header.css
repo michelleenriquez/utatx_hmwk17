@@ -20,6 +20,18 @@
     padding:10px;
     font-weight: 200px;
 }
+
+a:hover {
+    background-color: #D9983E;
+}
+a:active {
+    background-color: #A06045; 
+}
+
+.nav li a.active-page {
+    background-color: #1D454D; 
+    color: white; 
+}
 .headerPeach {
     display: flex;
     background-color: #E8BEA6;
