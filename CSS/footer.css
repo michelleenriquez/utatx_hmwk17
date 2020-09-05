@@ -9,96 +9,89 @@
 body {
     margin: 0;
     padding: 0;
-    /*position: relative;
-    flex-grow: 100vh;
-    flex-shrink: 0;
-    min-height: 100vh;
-    width: 100vw;*/
 }
-ul {
-    list-style: none;
-    padding-left: 0;
+.fa-chevron-up{
+    margin-bottom: 10px;
 }
-.footer {
-    width: 100vw;
+.to-top {
     display: flex;
-    overflow: hidden;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    background-color: #1D454D;
+    position:fixed;
+    flex-direction: column-reverse;
+    bottom: 300px;
+    right: 50px;
+    width:50px;
+    height:50px;
+    margin-left:0px;
+    margin-top:300px;
+    border-radius: 45px;
+    padding: 10px;
+    cursor: pointer; 
+    background-color:#D9983E;  
+    text-align: center;   
     color: #ffffff;
-    justify-content: center;
-    align-content: center;
-    /*position: absolute;
-    flex-grow: 0;
-    flex-shrink: 100%;*/
+    font-size: 16px;
+    }
+.to-top:hover{
+    color: #1D454D;
+}
+
+.footer {
+    background-color: #1D454D;
+    height: 250px;
     left: 0;
     bottom: 0;
+    align-content: center;
 }
-.inner_footer .fticonlist img {
-    width: 40px;
-}
-.inner_footer .fticonlist {
+.inner_footerhover {
     display: flex;
-    flex-wrap: nowrap;
     justify-content: center;
-    flex-direction: row;
-    padding-top: 5px;
+    padding-top: 10px;
 }
-
-.inner_footer .footertext {
+.inner_footerhover .ftr-icon {
+    padding: 5px;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+.text a {
+    color: #ffffff;
+}
+.inner_footerhover a:hover {
+color: #D9983E;
+}
+.footergrid .text a:hover{
+    color: #D9983E;
+}
+.footergrid .text {
     display: grid;
     justify-content: center;
-    padding-left: 60px;
-    padding-bottom: 10px;
-    width: 100%;
-    grid-template-rows: 30px;
-    grid-template-columns: repeat(5 1fr);
-    grid-column-gap: 20px;
-    grid-template-areas: 
-        "AP Careers Tel"
-        "TTV PP Address";
 }
-.AP:hover {
-    color: #D9983E}
-.Careers:hover {
-    color: #D9983E}
-.Tel:hover {
-    color: #D9983E}
-.TTV:hover {
-    color: #D9983E}
-.PP:hover {
-    color: #D9983E}
-.Address:hover {
-    color: #D9983E}
+.footergrid .text a {
+    padding-left: 0px;
+    padding-bottom: 5px;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+    }
 
 @media only screen and (max-width: 600px){
-    .inner_footer {
+    .to-top {
+        right 25px;
+    }
+    .inner_footerhover {
         justify-content: center;
     }
-    .inner_footer .fticonlist {
+    .footergrid .footertext a {
         display: flex;
     }
-    .inner_footer .fticonlist img {
+    .inner_footerhover .ftr-icon a {
         width: 30px;
     }
-    .inner_footer .footertext {
+    .footergrid .footertext a {
         font-size: 16px;
         display: grid;
         word-wrap: break-word;
         word-break: break-all;
         margin-left: 20px;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-columns:repeat(4 1fr);
-        grid-template-areas: 
-        "AP Tel"
-        "TTV Address"
-        "PP Careers";
-    }
-    /*.inner_footer .address {
-        align-self: flex-start;
-        word-wrap: break-word;
-        word-break: break-all;
-    }*/
-    
-}
+        grid-template-rows: auto auto auto;
+        grid-template-columns:repeat(4 1fr);  
+    }}
