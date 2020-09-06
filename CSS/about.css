@@ -42,10 +42,12 @@ p {
 }
 
 .image {
-    /*float: left;*/
+    float: left;
     max-width: 704px;
     max-height: 465px;
 }
+
+
 
 .container {
     display: grid;
@@ -54,11 +56,20 @@ p {
     
 }
 
+.circle-images {
+        width: 300px;    
+}
+
 .right-half {
     text-align: right;
     font-family: 'montserrat' 'regular';
     font-size: 22px;
 }
+/* .rotate { 
+    animation: rotation 8s infinite linear;
+  }  */
+
+
 h1 {
     font-family: 'josefin' 'bold';
     font-size: 48px;
@@ -82,6 +93,7 @@ h1 {
     margin-bottom: 2em;
     margin-top: 2em;
 }
+
 
 h1 {
     text-align: center;
@@ -112,6 +124,12 @@ h5 {
     margin-bottom: 2em;
     margin-top: 2em;
 }
+
+
+.spinMe {
+    animation: spin 2s infinite;
+    Padding: 10px;
+  }
 
 .para4 {
 
@@ -148,6 +166,10 @@ h5 {
     margin-bottom: 2em;
     margin-top: 2em;
 }
+.spinMe {
+    animation: spin 2s infinite;
+  }
+
 
 .para6 {
     font-family: 'montserrat' 'regular';
@@ -158,9 +180,52 @@ h5 {
     padding: 0px;
 }
 
-@media only screen and (max-width: 600px){
-    
+@keyframes spin {
+    from {
+      transform: rotate(180deg);
+    }
+    to {
+      transform: rotate(-180deg);
+    }
+  }
+
+ 
+
+@media only screen and (max-width: 600px) {
+    .circle-images {
+        width: 300px;
+    }
+
     .container {
+        display: grid;
+        grid-template-rows: repeat (2 300px);
+        grid-template-columns: 300px;
+    }
+    .container img {
+        max-width: 352px;
+        max-height: 232px;
+        image-orientation: flip;
+    }
+    .container2 {
+        display: grid;
+        grid-template-rows: repeat (2 300px);
+        grid-template-columns: 300px;
+    }
+    .right-half {
+        display: inline-block;
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+    
+    .right-half-left {
+        display: inline-block;
+        margin-bottom: 2em;
+        margin-top: 2em;
+}
+
+
+    
+    /* .container {
         display: grid;
         grid-template-rows: repeat (2 300px);
         grid-template-columns: 300px;
@@ -215,5 +280,5 @@ h5 {
         
         min-width: 25vw;
         min-height: 25vh;
-}
-}
+    }*/}
+
