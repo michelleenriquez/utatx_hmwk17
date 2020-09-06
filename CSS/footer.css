@@ -75,7 +75,7 @@ color: #D9983E;
 
 @media only screen and (max-width: 600px){
     .to-top {
-        right 25px;
+        right: 25px;
     }
     .inner_footerhover {
         justify-content: center;
